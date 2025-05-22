@@ -1,7 +1,11 @@
-#Axioma
-
+---
+tags:
+  - axioma
+title: Axioma de Normalización
+draft: false
+---
 > [!info] Definición
-> La probabilidad del [[Espacio Muestral]] completo es 1:
+> La probabilidad del [[espacio muestral]] completo es 1:
 > 
 > $P(\Omega) = 1$
 

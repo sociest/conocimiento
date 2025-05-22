@@ -1,5 +1,9 @@
-#Axioma
-
+---
+tags:
+  - axioma
+title: Axioma de Aditividad Finita
+draft: false
+---
 > [!info] Definición
 > Para dos eventos disjuntos $A$ y $B$ (i.e., $A \cap B = \varnothing$),
 > 
