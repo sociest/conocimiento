@@ -5,10 +5,24 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.Comments({
+      provider: "giscus",
+      options: {
+        // from data-repo
+        repo: "sociest/conocimiento",
+        // from data-repo-id
+        repoId: "R_kgDOOaT1-g",
+        // from data-category
+        category: "General",
+        // from data-category-id
+        categoryId: "DIC_kwDOOaT1-s4CrAqF",
+      },
+    }),
+  ],
   footer: Component.Footer({
     links: {
-      "Website": "https://sociest.org/",
+      Website: "https://sociest.org/",
       GitHub: "https://github.com/sociest",
     },
   }),
@@ -37,7 +51,15 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      mapFn: (node) => {
+        if (node.isFolder) {
+          node.displayName = "📁 " + node.displayName
+        } else {
+          node.displayName = "📄 " + node.displayName
+        }
+      },
+    }),
   ],
   right: [
     Component.Graph(),
@@ -61,7 +83,15 @@ export const defaultListPageLayout: PageLayout = {
         { Component: Component.Darkmode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      mapFn: (node) => {
+        if (node.isFolder) {
+          node.displayName = "📁 " + node.displayName
+        } else {
+          node.displayName = "📄 " + node.displayName
+        }
+      },
+    }),
   ],
   right: [],
 }
