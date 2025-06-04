@@ -1,0 +1,2 @@
+> [!info] Definición
+> La población objeto de estudio es aquella definida para ser estudiada según los propósitos de una investigación. Su definición incluye las unidades a investigar, la temporalidad y el espacio o cobertura del estudio, además del periodo de referencia o intervalo de tiempo al que se refieren los datos.
