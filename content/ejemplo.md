@@ -2,7 +2,7 @@
 title: Ejemplo
 draft: false
 ---
-> [!info] Definición
+> [!info] [[definicion|Definición]]
 > Un ejemplo es una instancia específica que ilustra o clarifica un concepto, teoría o principio, proporcionando una representación concreta de lo que se describe.
 
 ```mermaid

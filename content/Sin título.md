@@ -1,3 +1,8 @@
+---
+title: Etiquetas
+draft: true
+---
+
 ## 5. Definición de Esperanza Matemática
 
 > **Título:** Esperanza (Valor Esperado)  

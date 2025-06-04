@@ -4,7 +4,7 @@ tags:
 title: Variable Aleatoria
 draft: false
 ---
-> [!info] Definición
+> [!info] [[definicion|Definición]]
 > Una [[funcion|función]] mesurable $X: \Omega \to \mathbb{R}$ que asigna a cada resultado del experimento un número real.
 
 > [!quote] Contexto

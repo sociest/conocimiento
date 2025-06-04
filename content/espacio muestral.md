@@ -5,7 +5,7 @@ title: Espacio Muestral
 draft: false
 ---
 
-> [!info] Definición
+> [!info] [[definicion|Definición]]
 > El espacio muestral es el conjunto de todos los resultados posibles de un experimento aleatorio. Se denota comúnmente como $\Omega$ y es fundamental en la teoría de la probabilidad.
 
 ```mermaid

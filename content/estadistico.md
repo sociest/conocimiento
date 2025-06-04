@@ -4,7 +4,7 @@ tags:
 title: Estadístico
 draft: false
 ---
-> [!info] Definición
+> [!info] [[definicion|Definición]]
 > Un estadístico es una [[funcion|función]] que toma un [[conjunto|conjunto]] de datos y produce un valor numérico que resume o describe alguna característica de esos datos. Los estadísticos son fundamentales en la estadística para inferir propiedades de una [[poblacion|población]] a partir de una muestra.
 
 ```mermaid

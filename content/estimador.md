@@ -4,7 +4,7 @@ tags:
 title: Estimador
 draft: false
 ---
-> [!info] Definición
+> [!info] [[definicion|Definición]]
 > Un [[estadistico | estadístico]] es cualquier función $T$ de los datos muestrales $(X_1,X_2,\cdots,X_n)$ que no depende de parámetros desconocidos:
 > $T = T(X_1,X_2,\cdots,X_n)$.
 

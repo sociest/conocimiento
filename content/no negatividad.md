@@ -4,7 +4,7 @@ tags:
   - axioma
 draft: false
 ---
-> [!info] Definición
+> [!info] [[definicion|Definición]]
 > Para cualquier [[evento]] A en el [[espacio muestral | espacio muestral]] $\Omega$, la probabilidad no puede ser negativa:
 > 
 > $P(A) \ge 0.$

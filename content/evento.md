@@ -4,7 +4,7 @@ tags:
 title: Evento
 draft: false
 ---
-> [!info] Definición
+> [!info] [[definicion|Definición]]
 > Un evento es un conjunto de resultados de un experimento aleatorio. Se denota comúnmente como $E$ y puede ser un subconjunto del espacio muestral $\Omega$. Los eventos pueden ser simples (un solo resultado) o compuestos (varios resultados).
 
 ```mermaid

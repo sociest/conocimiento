@@ -2,7 +2,7 @@
 title: Definición
 draft: false
 ---
-> [!info] Definición
+> [!info] [[definicion|Definición]]
 > Una definición es una descripción precisa y concisa de un concepto, término o entidad, que establece sus características esenciales y lo distingue de otros conceptos relacionados.
 
 ```mermaid

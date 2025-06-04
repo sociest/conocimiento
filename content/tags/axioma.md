@@ -2,7 +2,7 @@
 title: Axioma
 draft: false
 ---
-> [!info] Definición
+> [!info] [[definicion|Definición]]
 > Un axioma es una proposición o principio fundamental que se acepta sin necesidad de demostración, sirviendo como base para el desarrollo de teorías y sistemas lógicos.
 
 ```mermaid

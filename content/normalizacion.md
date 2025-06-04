@@ -4,7 +4,7 @@ tags:
 title: Axioma de Normalización
 draft: false
 ---
-> [!info] Definición
+> [!info] [[definicion|Definición]]
 > La probabilidad del [[espacio muestral]] completo es 1:
 > 
 > $P(\Omega) = 1$
