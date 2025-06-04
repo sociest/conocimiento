@@ -12,5 +12,5 @@ draft: false
 > [!quote] Contexto
 > Este [[axioma]] garantiza que asignemos valores plausibles a probabilidad; no podemos tener “probabilidades” menores que cero.  
 
-> [!example] Ejemplo
+> [!example] [[ejemplo|Ejemplo]]
 > Si lanzas un dado justo, $P(\text{cara impar}) = \tfrac{3}{6} = 0.5 \ge 0$. 

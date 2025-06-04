@@ -4,6 +4,7 @@ tags:
 title: Axioma de Aditividad Finita
 draft: false
 ---
+
 > [!info] [[definicion|Definición]]
 > Para dos eventos disjuntos $A$ y $B$ (i.e., $A \cap B = \varnothing$),
 > 

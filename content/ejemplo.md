@@ -17,7 +17,7 @@ flowchart TD
 > Los ejemplos son herramientas pedagógicas esenciales que ayudan a comprender mejor los conceptos abstractos al proporcionar casos concretos y aplicables.
 >
 
-> [!example] Ejemplo
+> [!example] [[ejemplo|Ejemplo]]
 > Un ejemplo de un concepto matemático es el teorema de Pitágoras, que establece que en un triángulo rectángulo, el cuadrado de la hipotenusa es igual a la suma de los cuadrados de los catetos. Un ejemplo específico sería un triángulo con catetos de longitud 3 y 4, donde la hipotenusa mediría 5 unidades.
 >
 

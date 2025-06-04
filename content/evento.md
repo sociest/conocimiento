@@ -21,7 +21,7 @@ flowchart TD
 > Los eventos son fundamentales en la teoría de la probabilidad, ya que permiten definir situaciones específicas dentro del espacio muestral y calcular probabilidades asociadas a esos eventos.
 >
 
-> [!example] Ejemplo
+> [!example] [[ejemplo|Ejemplo]]
 > Un ejemplo de evento es el lanzamiento de un dado. Si consideramos el evento $E$ de obtener un número par, entonces $E = \{2, 4, 6\}$, que es un subconjunto del espacio muestral $\Omega = \{1, 2, 3, 4, 5, 6\}$.
 > ```mermaid
 > flowchart TD

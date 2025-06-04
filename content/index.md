@@ -1,6 +1,6 @@
 ---
-title: Bienvenido a la Base de Conocimiento
-description: Explora guías, recursos y temas útiles para tus proyectos.
+title: ¡Bienvenido a la Base de Conocimiento!
+description: Descubre guías, recursos y temas esenciales para impulsar tus proyectos.
 permalink: index
 comments: false
 lang: es-ES
@@ -12,9 +12,11 @@ modified: 2025-05-03
 published: 2025-04-21
 ---
 
+Bienvenido a tu centro de información. Este sitio, parte integral del repositorio de conocimiento, está diseñado para proporcionarte acceso rápido y fácil a conceptos, guías y recursos fundamentales tanto en Estadística como en Ciencias de Datos, sin dejar de lado temas de interés general.
 
-¡Bienvenido a la base de conocimiento! Aquí encontrarás información, guías y recursos útiles para ayudarte en tus proyectos y resolver tus dudas. Puedes navegar por las diferentes secciones o buscar temas específicos utilizando las etiquetas.
+Aquí hallarás artículos claros y concisos que explican paso a paso ideas clave. Cada entrada ha sido elaborada para ofrecerte la información esencial de manera directa, facilitando la aplicación práctica de los conceptos en tus proyectos y estudios.
 
-Utiliza **Markdown** para agregar o modificar contenido fácilmente.
+¡Explora, aprende y potencia tus habilidades!
 
-¡Comienza a explorar y aprende algo nuevo cada día!
+Inicia por aqui:
+- [[estadistico|Definición de Estadistico]]

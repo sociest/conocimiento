@@ -17,6 +17,6 @@ flowchart TD
 > Los axiomas son esenciales en matemáticas y lógica, ya que establecen los fundamentos sobre los cuales se construyen teoremas y teorías más complejas.
 >
 
-> [!example] Ejemplo
+> [!example] [[ejemplo|Ejemplo]]
 > Un ejemplo de axioma es el "axioma de la recta", que establece que por dos puntos distintos pasa una única recta. Este axioma es fundamental en la geometría euclidiana y no requiere demostración, ya que se acepta como una verdad evidente.
 >

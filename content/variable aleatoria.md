@@ -10,7 +10,7 @@ draft: false
 > [!quote] Contexto
 > Sirve para cuantificar resultados de experimentos aleatorios.
 
-> [!example] Ejemplo
+> [!example] [[ejemplo|Ejemplo]]
 > Si $\Omega$ es el lanzamiento de un dado, $X(\omega) = \omega$.  
 
 > [!note] Propiedades Clave:

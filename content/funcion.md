@@ -20,7 +20,7 @@ flowchart TD
 > [!quote] Contexto
 > Las funciones son fundamentales en matemáticas, ya que permiten modelar relaciones y transformaciones entre variables.
 
-> [!example] Ejemplo
+> [!example] [[ejemplo|Ejemplo]]
 > La función cuadrática $f(x) = x^2$ asigna a cada número real $x$ su cuadrado. Por ejemplo, $f(3) = 9$ y $f(-2) = 4$.
 > ```mermaid
 > flowchart TD

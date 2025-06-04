@@ -19,7 +19,7 @@ flowchart TD
 > [!quote] Contexto
 > El espacio muestral es esencial para definir eventos y calcular probabilidades. Cada resultado en el espacio muestral es un punto de partida para el análisis probabilístico.
 
-> [!example] Ejemplo
+> [!example] [[ejemplo|Ejemplo]]
 > Un ejemplo de espacio muestral es el lanzamiento de un dado. El espacio muestral $\Omega$ sería $\{1, 2, 3, 4, 5, 6\}$, ya que estos son los resultados posibles al lanzar un dado de seis caras.
 > ```mermaid
 > flowchart TD
