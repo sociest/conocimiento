@@ -9,21 +9,17 @@ export const sharedPageComponents: SharedLayout = {
     Component.Comments({
       provider: "giscus",
       options: {
-        // from data-repo
         repo: "sociest/conocimiento",
-        // from data-repo-id
         repoId: "R_kgDOOaT1-g",
-        // from data-category
         category: "General",
-        // from data-category-id
         categoryId: "DIC_kwDOOaT1-s4CrAqF",
       },
     }),
   ],
   footer: Component.Footer({
     links: {
-      Website: "https://sociest.org/",
-      GitHub: "https://github.com/sociest",
+      "Pagina web": "https://sociest.org/",
+      "Algún error? Notificalo!": "https://github.com/sociest/conocimiento/issues",
     },
   }),
 }
