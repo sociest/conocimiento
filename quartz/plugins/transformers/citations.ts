@@ -32,7 +32,7 @@ export const Citations: QuartzTransformerPlugin<Partial<Options>> = (userOpts) =
           suppressBibliography: opts.suppressBibliography,
           linkCitations: opts.linkCitations,
           csl: opts.csl,
-          lang: ctx.cfg.configuration.locale ?? "en-US",
+          lang: "en-US", //ctx.cfg.configuration.locale ?? "en-US",
         },
       ])
 
@@ -43,6 +43,26 @@ export const Citations: QuartzTransformerPlugin<Partial<Options>> = (userOpts) =
           visit(tree, "element", (node, _index, _parent) => {
             if (node.tagName === "a" && node.properties?.href?.startsWith("#bib")) {
               node.properties["data-no-popover"] = true
+            }
+
+            if (node.tagName === "div" && node.properties?.id?.includes("bib")) {
+                const ref = node.properties.id.replace(/^bib-/, "");
+                node.children = node.children || [];
+                node.children.push({
+                type: "element",
+                tagName: "a",
+                properties: {
+                  href: `./@${ref}`,
+                  className: ["internal"],
+                  "data-slug": ref,
+                },
+                children: [
+                  {
+                  type: "text",
+                  value: " Ver cita",
+                  },
+                ],
+                });
             }
           })
         }

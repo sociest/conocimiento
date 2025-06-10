@@ -15,7 +15,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    //locale: "es-ES",
+    locale: "es-ES",
     baseUrl: "conocimiento.sociest.org",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
@@ -72,7 +72,7 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
-      Plugin.Citations({bibliographyFile: "./content/bibliografia/bibliografia.bib", linkCitations: true}),
+      Plugin.Citations({bibliographyFile: "./content/bibliografia/bibliografia.bib", linkCitations: true, suppressBibliography:false}),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [

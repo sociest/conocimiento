@@ -20,11 +20,3 @@ Aquí hallarás artículos claros y concisos que explican paso a paso ideas clav
 
 Inicia por aqui:
 - [[estadistico|Definición de Estadistico]]
-
-[[@wisniewski_2002]]
-
-a
-
-@wisniewski_2002
-
-b
