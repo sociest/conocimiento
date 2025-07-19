@@ -32,16 +32,29 @@ jobs:
 
     - name: Copy .md and other files from content branch to content directory
       run: |
-        git checkout origin/content -- content || {
-          echo "No content directory found in origin/content branch - skipping checkout"
-          exit 0
-        }
-        # Remove existing content directory and replace with new one
+        # Remove existing content directory and create fresh one
         rm -rf content
         mkdir -p content
-        git checkout origin/content -- content
-        # Optionally, filter for .md and other files if needed
-        # find content -type f \( -name "*.md" -o -name "*.txt" -o -name "*.pdf" \) -exec git add {} +
+        
+        # Copy all .md files from root of content branch to content directory
+        git show origin/content:. | grep -E '\.(md|bib|png|jpg)$' | while read file; do
+          if git cat-file -e origin/content:"$file" 2>/dev/null; then
+            mkdir -p "content/$(dirname "$file")"
+            git show origin/content:"$file" > "content/$file"
+          fi
+        done
+        
+        # Copy directory structures (bibliografia, sobre, tags, etc.)
+        for dir in bibliografia sobre tags; do
+          if git ls-tree --name-only origin/content | grep -q "^$dir$"; then
+            git checkout origin/content -- "$dir" 2>/dev/null || true
+            if [ -d "$dir" ]; then
+              mv "$dir" "content/$dir"
+            fi
+          fi
+        done
+        
+        # Add all files in content directory
         git add content/
 
     - name: Commit changes if any
