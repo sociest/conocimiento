@@ -5,37 +5,43 @@ on:
     branches:
       - content
 
+permissions:
+  contents: write
+
 jobs:
   sync:
     runs-on: ubuntu-latest
 
     steps:
     - name: Checkout repo
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
-        fetch-depth: 0  # Necesario para rebase/checkout con historia completa
+        fetch-depth: 0
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Configure Git
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
     - name: Fetch all branches
-      run: git fetch origin '+refs/heads/*:refs/remotes/origin/*'
+      run: git fetch origin
 
     - name: Switch to v4 branch
-      run: |
-        git checkout v4
+      run: git checkout v4
 
-    - name: Copy content directory
+    - name: Copy content directory from content branch
       run: |
-        git restore --source content --worktree -- content/
+        git checkout origin/content -- content/
         git add content/
 
     - name: Commit changes if any
       run: |
         if ! git diff --cached --quiet; then
-          git commit -m "Sync content from content branch ($(date +'%Y-%m-%d %H:%M'))"
+          git commit -m "Sync content from content branch ($(date +'%Y-%m-%d %H:%M:%S'))"
         else
-          echo "No changes in content → skip commit"
+          echo "No changes in content directory - skipping commit"
         fi
 
     - name: Push to v4
       run: git push origin v4
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
