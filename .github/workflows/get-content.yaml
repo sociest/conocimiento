@@ -1,0 +1,41 @@
+name: Sync Content to v4
+
+on:
+  push:
+    branches:
+      - content
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0  # Necesario para rebase/checkout con historia completa
+
+    - name: Fetch all branches
+      run: git fetch origin '+refs/heads/*:refs/remotes/origin/*'
+
+    - name: Switch to v4 branch
+      run: |
+        git checkout v4
+
+    - name: Copy content directory
+      run: |
+        git restore --source content --worktree -- content/
+        git add content/
+
+    - name: Commit changes if any
+      run: |
+        if ! git diff --cached --quiet; then
+          git commit -m "Sync content from content branch ($(date +'%Y-%m-%d %H:%M'))"
+        else
+          echo "No changes in content → skip commit"
+        fi
+
+    - name: Push to v4
+      run: git push origin v4
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
