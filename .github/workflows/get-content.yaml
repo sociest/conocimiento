@@ -1,6 +1,7 @@
 name: Sync Content to v4
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - content
