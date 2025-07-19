@@ -37,7 +37,7 @@ jobs:
         mkdir -p content
         
         # Copy all .md files from root of content branch to content directory
-        git show origin/content:. | grep -E '\.(md|bib|png|jpg)$' | while read file; do
+        git ls-tree -r --name-only origin/content | grep -E '\.(md|bib|png|jpg)$' | while read file; do
           if git cat-file -e origin/content:"$file" 2>/dev/null; then
             mkdir -p "content/$(dirname "$file")"
             git show origin/content:"$file" > "content/$file"
