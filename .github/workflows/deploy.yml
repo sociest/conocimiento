@@ -5,10 +5,10 @@ on:
     branches:
       - v4
   workflow_dispatch:
-  workflow_run:
-    workflows: ["Sync Content to v4"]
-    types:
-      - completed
+  #workflow_run:
+  #  workflows: ["Sync Content to v4"]
+  #  types:
+  #    - completed
  
 permissions:
   contents: read
