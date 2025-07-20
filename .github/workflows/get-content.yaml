@@ -43,7 +43,7 @@ jobs:
             mkdir -p "content/$(dirname "$file")"
             git show origin/content:"$file" > "content/$file"
           fi
-        dones
+        done
         
         # Add all files in content directory
         git add content/
