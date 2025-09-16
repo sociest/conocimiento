@@ -12,9 +12,7 @@ const config: QuartzConfig = {
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
+    analytics: { provider: 'google', tagId: 'G-RJ6DSZGX0T' },
     locale: "es-ES",
     baseUrl: "conocimiento.sociest.org",
     ignorePatterns: ["private", "templates", ".obsidian"],
