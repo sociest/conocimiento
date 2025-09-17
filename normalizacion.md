@@ -3,6 +3,13 @@ tags:
   - axioma
 title: Axioma de Normalización
 draft: false
+Identificador Freebase: /m/08hc2n
+identificador Microsoft Academic: "123832482"
+identificador de synset de WordNet 3.1: 01161177-n
+instancia de: "[[término estadístico]]"
+subclase de: "[[proceso]]"
+EntityID: Q249772
+wikipedia URL: https://es.wikipedia.org/wiki/Normalizaci%C3%B3n_(estad%C3%ADstica)
 ---
 > [!info] [[definicion|Definición]]
 > La probabilidad del [[espacio muestral]] completo es 1:
