@@ -1,7 +1,7 @@
 ---
-title: "Statistical inference"
+title: Statistical inference
 description: "xviii, 650 p. : 25 cm; Includes bibliographical references (p. 631-639) and index"
-permalink: "casella_1990"
+permalink: casella_1990
 comments: true
 publish: true
 draft: false
@@ -10,7 +10,7 @@ tags:
 aliases:
   - "@casella_1990"
 cssclasses:
-  - "book"
+  - book
 socialDescription: "xviii, 650 p. : 25 cm; Includes bibliographical references (p. 631-639) and index"
 socialImage: ""
 created: ""
