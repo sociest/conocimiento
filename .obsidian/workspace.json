@@ -1,0 +1,295 @@
+{
+  "main": {
+    "id": "7310a8e4f6c231d8",
+    "type": "split",
+    "children": [
+      {
+        "id": "d87246f8c25195a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48763d3b129a7b77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "estimador.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "estimador"
+            }
+          },
+          {
+            "id": "ba022fc1b513b7a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "eficiencia relativa.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "eficiencia relativa"
+            }
+          },
+          {
+            "id": "0a2f451ac8603763",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "metodos de estimacion.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "metodos de estimacion"
+            }
+          },
+          {
+            "id": "869db4ed2f45d3ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "metodo de momentos.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "metodo de momentos"
+            }
+          },
+          {
+            "id": "5874e917376862a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "metodo de maxima verosimilitud.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "metodo de maxima verosimilitud"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9673bbb21cbefde6",
+    "type": "split",
+    "children": [
+      {
+        "id": "1fbc2ad0eebbdea7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "496cda99a35e7b9f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "272f8d117fa23cca",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "b2840f7803f09e50",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "999016c0c8792fac",
+    "type": "split",
+    "children": [
+      {
+        "id": "818fc5ad0f29ef8a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "44bf2580db030971",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "d0cfbdd0549507ab",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "86aa5ba42b598654",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "f073a4e26de9899d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          },
+          {
+            "id": "1ad2791506eb598b",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "09128161bb513677",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "qmd-as-md-obsidian:Toggle Quarto Preview": false,
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "wikipedia-search:Open Article": false
+    }
+  },
+  "active": "869db4ed2f45d3ab",
+  "lastOpenFiles": [
+    "metodos de estimacion.md",
+    "metodo de momentos.md",
+    "metodo de maxima verosimilitud.md",
+    "eficiencia relativa.md",
+    "estimador.md",
+    "error_cuadratico_medio.md",
+    "Mapas de Contenido/index.md",
+    "Mapas de Contenido/Inferencia Estadística 2.md",
+    "bibliografia/@casella_1990.md",
+    "Sin nombre",
+    "content/normativa/Estatuto Orgánico.md",
+    "Mapas de Contenido",
+    "variable aleatoria.md",
+    "universo.md",
+    "teoría.md",
+    "teoría de la probabilidad.md",
+    "teorema.md",
+    "teorema del límite central.md",
+    "sistema axiomático.md",
+    "propuestas/Propuesta para la Creación de la Comunidad Profesional de Estadísticos.qmd",
+    "propuestas/Propuesta para Evento Anual de Estadistica.qmd",
+    "propuestas/Propuesta de Ecosistema Abierto de Publicación.qmd",
+    "propuestas",
+    "probabilidad.md",
+    "poblacion_estudio.md",
+    "poblacion.md",
+    "normalizacion.md",
+    "no negatividad.md",
+    "información.md",
+    "index.md",
+    "funcion.md",
+    "evento.md",
+    "bibliografia",
+    "content/normativa",
+    "webs",
+    "wikidata",
+    "quartz/static/og-image.png",
+    "quartz/static/icon.png"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "entityIdKey": "EntityID",
+  "internalLinkPrefix": "wikidata/${label}",
+  "ignoreCategories": false,
+  "ignoreWikipediaPages": false,
+  "ignoreIDs": false,
+  "ignorePropertiesWithTimeRanges": false,
+  "overwriteExistingProperties": false,
+  "blockedProperties": [],
+  "allowedProperties": [],
+  "language": "es"
+}
